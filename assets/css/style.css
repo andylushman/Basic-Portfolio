@@ -4,32 +4,68 @@
 }
 
 body {
-  background-image: url("./images/topography.png");
+  background-image: url("../images/topography.png");
 }
 
 .mainHeader{
   background-color: #ffffff;
-  border-color: #cccccc;
+  border: 1px solid #cccccc;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #777777;
+  max-width: 215px;
+  max-height: 80px;
 }
 
 nav {
-
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #777777;
 }
 
 h1 {
-
+  color: #4aaaa5;
 }
 
 .mainContent {
   background-color: #ffffff;
-  border-color: #dddddd;
+  border: 1px solid #dddddd;
+  color: #777777;
+  max-width: 650px;
+  margin-left: 7em;
+}
+
+.mainContent p {
+  padding: 1em;
+}
+
+#aboutMe {
+  padding-left: 1em;
+}
+
+#profilePic {
+  float: left;
+  max-width: 175px;
+  max-height: 175px;
+  padding: 1em;
 }
 
 .connectBox{
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  max-width: 270px;
+  max-height: 175px;
+  font-size: .75em;
+  padding: 1em;
+  text-align: center;
+}
 
+.socialIcon {
+  max-width: 60px;
+  max-width: 60px;
 }
 
 footer {
   background-color: #666666;
+  text-align: center;
+  padding: 2em;
 }
