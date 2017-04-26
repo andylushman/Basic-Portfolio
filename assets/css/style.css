@@ -1,0 +1,35 @@
+
+* {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("./images/topography.png");
+}
+
+.mainHeader{
+  background-color: #ffffff;
+  border-color: #cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+
+}
+
+h1 {
+
+}
+
+.mainContent {
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.connectBox{
+
+}
+
+footer {
+  background-color: #666666;
+}
