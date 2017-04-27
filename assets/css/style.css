@@ -12,8 +12,13 @@ body {
   border: 1px solid #cccccc;
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #777777;
-  max-width: 215px;
+  max-width: 100%;
   max-height: 80px;
+padding: 1em;
+}
+
+.btnGroup {
+  float: right;
 }
 
 nav {
@@ -36,6 +41,8 @@ h1 {
 
 .mainContent p {
   padding: 1em;
+  height: 100%;
+  float: left;
 }
 
 #aboutMe {
@@ -57,6 +64,7 @@ h1 {
   font-size: .75em;
   padding: 1em;
   text-align: center;
+  float: right;
 }
 
 .socialIcon {
@@ -67,5 +75,8 @@ h1 {
 footer {
   background-color: #666666;
   text-align: center;
-  padding: 2em;
+  height: 100px;
+  line-height: 100px;
+  font-size: .75em;
+  clear: both;
 }
