@@ -23,14 +23,16 @@ body {
   color: #777777;
   width: 100%;
   max-height: 80px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #777;
 }
 
 .name {
   float: left;
-  margin-left: 3em;
+  margin-left: 3.5em;
   color: #fff;
   background-color: #4aaaa5;
+  margin-bottom: 0;
+  padding: .75em;
 }
 
 .main-nav {
@@ -43,6 +45,13 @@ body {
   padding-right: 2em;
   list-style-type: none;
   margin-top: 1em;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #777;
+  border-right: 1px solid #777;
+  padding-right: 1em;
 }
 
 /******Main Content******/
@@ -110,7 +119,7 @@ h1 {
 footer {
   background-color: #666666;
   text-align: center;
-  height: 100px;
+  height: 110px;
   line-height: 100px;
   font-size: .6em;
   clear: both;
