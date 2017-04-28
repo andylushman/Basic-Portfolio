@@ -44,7 +44,7 @@ body {
   float: left;
   padding-right: 2em;
   list-style-type: none;
-  margin-top: 1em;
+  margin-top: 1.75em;
 }
 
 .main-nav a {
@@ -89,6 +89,37 @@ h1 {
   padding: 1em;
 }
 
+form {
+  padding: 1em;
+}
+
+input {
+  display: block;
+  margin-bottom: 2em;
+  width: 50em;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  display: block;
+  width: 52em;
+  height: 15em;
+  border: 1px solid #ddd;
+}
+
+button {
+background-color: #4aaaa5;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 1em;
+border-radius: 10%;
+}
 /******Side Bar******/
 .connect-box{
   background-color: #ffffff;
