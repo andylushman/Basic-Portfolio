@@ -57,6 +57,7 @@ body {
 /******Main Content******/
 h1 {
   color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .main-content {
@@ -119,6 +120,24 @@ display: inline-block;
 font-size: 16px;
 margin-top: 1em;
 border-radius: 10%;
+}
+
+.port-img {
+  width: 250px;
+  height: 190px;
+  margin: 1.5em 1em;
+}
+
+.main-port {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: #777777;
+  width: 36em;
+  margin-left: 7em;
+  overflow: auto;
+  float: left;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 /******Side Bar******/
 .connect-box{
