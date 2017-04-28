@@ -11,6 +11,8 @@
 
 body {
   background-image: url("../images/ep_naturalwhite.png");
+  padding: 0;
+  margin: 0;
 }
 
 /******Header******/
@@ -21,6 +23,7 @@ body {
   color: #777777;
   width: 100%;
   max-height: 80px;
+  border-bottom: 3px solid #ddd;
 }
 
 .name {
@@ -37,7 +40,9 @@ body {
 
 .main-nav li {
   float: left;
-  padding-right: 4em;
+  padding-right: 2em;
+  list-style-type: none;
+  margin-top: 1em;
 }
 
 /******Main Content******/
@@ -102,15 +107,6 @@ h1 {
 }
 
 /******Footer******/
-.footer-line {
-  height: 2px;
-  width: 100%;
-  background-color: #4aaaa5;
-  clear: both;
-  margin-bottom: -9px;
-  padding: 2px;
-}
-
 footer {
   background-color: #666666;
   text-align: center;
@@ -119,4 +115,5 @@ footer {
   font-size: .6em;
   clear: both;
   color: #ddd;
+  border-top: 7px solid #4aaaa5;
 }
