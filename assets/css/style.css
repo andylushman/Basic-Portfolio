@@ -122,10 +122,42 @@ margin-top: 1em;
 border-radius: 10%;
 }
 
+.img-div {
+  position: relative;
+  width: 100%;
+}
+
+.img-div h2 {
+  position: absolute;
+  padding: 1em;
+  background-color: #4aaaa5;
+  color: #fff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 1.2em;
+  top: 128px;
+  left: 16px;
+  width: 11em;
+  text-align: center;
+}
+
+.img-div2 h2 {
+  position: absolute;
+  padding: 1em;
+  background-color: #4aaaa5;
+  color: #fff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 1.2em;
+  top: 353px;
+  left: 427px;
+  width: 11em;
+  text-align: center;
+}
+
 .port-img {
   width: 250px;
   height: 190px;
   margin: 1.5em 1em;
+  float: left;
 }
 
 .main-port {
