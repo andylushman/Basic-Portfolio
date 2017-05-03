@@ -54,6 +54,10 @@ body {
   padding-right: 1em;
 }
 
+.main-nav a:hover {
+  color: #4aaaa5;
+}
+
 /******Main Content******/
 h1 {
   color: #4aaaa5;
